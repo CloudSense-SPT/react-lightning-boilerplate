@@ -6,3 +6,5 @@
 
 # misc
 *.log
+.history
+.idea
