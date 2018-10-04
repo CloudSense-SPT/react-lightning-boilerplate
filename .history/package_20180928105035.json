@@ -1,0 +1,28 @@
+{
+	"name": "react-lightning",
+	"dependencies": {
+		"@babel/polyfill": "^7.0.0",
+		"body-parser": "^1.18.3",
+		"css-loader": "^1.0.0",
+		"react": "^16.5.2",
+		"react-dom": "^16.5.2",
+		"react-scripts": "1.1.5",
+		"requirejs": "^2.3.6",
+		"webpack": "^4.19.1"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"webpack": "webpack"
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.1.0",
+		"@babel/core": "^7.1.0",
+		"@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+		"@babel/plugin-transform-arrow-functions": "^7.0.0",
+		"@babel/preset-env": "^7.1.0",
+		"@babel/preset-react": "^7.0.0",
+		"babel-loader": "^8.0.2",
+		"webpack-cli": "^3.1.0"
+	}
+}

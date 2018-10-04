@@ -1,0 +1,22 @@
+.wrap-items {
+	padding: 1rem;
+	background-color: #fff;
+	border-radius: .25rem;
+	border: 1px solid #dddbda;
+}
+
+.acc-item-list {
+	display: grid;
+	grid-template-columns: 4fr 4fr 4fr 4fr;
+}
+
+.acc-headings {
+	display: contents;
+	color: #444;
+	padding: 18px;
+	width: 100%;
+	border: none;
+	outline: none;
+	font-size: 15px;
+	font-weight: bold;
+}

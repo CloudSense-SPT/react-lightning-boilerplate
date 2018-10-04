@@ -1,0 +1,12 @@
+{
+	"presets": [
+		"@babel/react",
+		"@babel/env"
+	],
+	"plugins": [
+		"@babel/transform-arrow-functions",
+		"@babel/proposal-object-rest-spread",
+		"@babel/syntax-class-properties",
+		"@babel/proposal-class-properties"
+	]
+}
