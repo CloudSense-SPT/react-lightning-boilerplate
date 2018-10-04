@@ -1,8 +1,0 @@
-# dependencies
-/node_modules
-
-# production
-/public/js
-
-# misc
-*.log

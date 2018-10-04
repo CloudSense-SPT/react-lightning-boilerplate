@@ -1,4 +1,0 @@
-{
-	"presets": ["@babel/react", "@babel/env"],
-	"plugins": ["@babel/transform-arrow-functions", "@babel/plugin-proposal-object-rest-spread"]
-}

@@ -1,4 +1,0 @@
-{
-	"presets": ["@babel/preset-react", "@babel/env"],
-	"plugins": ["@babel/transform-arrow-functions"]
-  }
