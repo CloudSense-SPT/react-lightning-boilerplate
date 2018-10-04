@@ -3,6 +3,7 @@
 
 # production
 /public/js
+/public/css
 
 # misc
 *.log
