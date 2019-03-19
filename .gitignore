@@ -2,8 +2,8 @@
 /node_modules
 
 # production
-/public/js
-/public/css
+/public
+/deploy
 
 # misc
 *.log
