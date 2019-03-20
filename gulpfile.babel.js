@@ -59,4 +59,4 @@ export const deploy = series(zipFiles, () => {
 		}));
 });
 
-exports.default = build;
+exports.default = deploy;
