@@ -1,36 +1,37 @@
 {
- "name": "react-lightning",
- "version": "1.0.0",
- "description": "NodeJS Boilerplate",
- "dependencies": {
-   "body-parser": "^1.18.3",
-   "react": "^16.8.4",
-   "react-dom": "^16.8.4",
-   "requirejs": "^2.3.6"
- },
- "scripts": {
-   "webpack": "webpack"
- },
- "devDependencies": {
-   "@babel/cli": "^7.2.3",
-   "@babel/core": "^7.3.4",
-   "@babel/register": "^7.0.0",
-   "@babel/plugin-proposal-class-properties": "^7.3.4",
-   "@babel/plugin-proposal-decorators": "^7.3.0",
-   "@babel/plugin-proposal-object-rest-spread": "^7.3.4",
-   "@babel/plugin-proposal-optional-chaining": "^7.2.0",
-   "@babel/plugin-syntax-class-properties": "^7.2.0",
-   "@babel/plugin-transform-arrow-functions": "^7.2.0",
-   "@babel/plugin-transform-async-to-generator": "^7.3.4",
-   "@babel/preset-env": "^7.3.4",
-   "@babel/preset-react": "^7.0.0",
-   "babel-loader": "^8.0.5",
-   "css-loader": "^1.0.0",
-   "gulp": "^4.0.0",
-   "gulp-cli": "^2.0.1",
-   "gulp-util": "^3.0.8",
-   "gulp-zip": "^4.1.0",
-   "webpack": "^4.29.6",
-   "webpack-cli": "^4.0.0-alpha-4"
- }
+  "name": "react-lightning",
+  "version": "1.0.0",
+  "description": "NodeJS Boilerplate",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "requirejs": "^2.3.6"
+  },
+  "scripts": {
+    "webpack": "webpack"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/register": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.3.4",
+    "@babel/plugin-proposal-decorators": "^7.3.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.3.4",
+    "@babel/plugin-proposal-optional-chaining": "^7.2.0",
+    "@babel/plugin-syntax-class-properties": "^7.2.0",
+    "@babel/plugin-transform-arrow-functions": "^7.2.0",
+    "@babel/plugin-transform-async-to-generator": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^1.0.0",
+    "gulp": "^4.0.0",
+    "gulp-cli": "^2.0.1",
+    "gulp-util": "^3.0.8",
+    "gulp-zip": "^4.1.0",
+    "gulp-jsforce-deploy": "^1.1.2",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^4.0.0-alpha-4"
+  }
 }

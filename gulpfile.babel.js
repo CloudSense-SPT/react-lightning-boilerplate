@@ -2,6 +2,7 @@ const { src, dest, series, parallel } = require('gulp');
 const gutil = require('gulp-util');
 const zip = require('gulp-zip');
 const webpack = require('webpack');
+const forceDeploy = require('gulp-jsforce-deploy');
 const webpackConfig = require('./webpack.config');
 
 const bundle = 'BUNDLE_NAME';
@@ -44,7 +45,7 @@ export function css() {
 export const build = parallel(webpackBuild, css);
 
 export const zipFiles = series(build, () => {
-	return gulp.src(`${assets}/**`)
+	return src(`${paths.assets}/**`)
 		.pipe(zip(`${bundle}.resource`))
 		.pipe(dest('deploy/pkg/staticresources'));
 });
