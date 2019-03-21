@@ -5,7 +5,7 @@ module.exports = {
 	output: {
 		path: `${__dirname}/public/js/`,
 		filename: 'client.bundle.js',
-		library: 'React',
+		library: '_react',
 		libraryTarget: 'window'
 	},
 	module: {
